@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navegacao{
+    background-image: url(https://th.bing.com/th/id/R.19f4e027643dc53ba96b6b49d8057411?rik=gFLJIu48tEZYaQ&pid=ImgRaw&r=0);
+    object-fit: cover;
+}
+body {
+    background-color: blanchedalmond;
+}
+.lista {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 38rem;
+    list-style: none;
+    padding: 2rem 2rem;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+.link:hover {
+    color: yellow;
+    cursor: pointer;
+}
+.text-1 {
+    margin: 2rem;
+    text-align: center;
+    color: blue;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.imagem-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.quadra-volei {
+    width: 50%;
+    height: 80vh;
+    border-radius: 25px;
+}
+.descricao {
+    margin: 2rem 35rem;
+    color: blue;
+}
