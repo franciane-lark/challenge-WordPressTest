@@ -49,6 +49,22 @@ body {
     border-radius: 25px;
 }
 .descricao {
-    margin: 2rem 35rem;
+    margin: 5rem 35rem;
     color: blue;
+}
+.caixa-1, .caixa-2, .caixa-3, .caixa-4  {
+    margin: 5rem 32rem;
+}
+
+.space-name, .space-descricao, .space-imagem, .space-pontos {
+   position: absolute;
+   margin-top: -2rem;    
+}
+
+.text-2 {
+    background-color: rgb(253, 253, 176);
+    width: 20rem;
+    min-height: 5vh;
+    border: none;
+    border-radius: 5rem;
 }
